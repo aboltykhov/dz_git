@@ -1,0 +1,30 @@
+
+Hello Al Bo!
+
+#######################################
+# Пример:
+# Чтобы скачать репозиторий dz_git
+#######################################
+pwd
+ll
+mkdir dz_git
+cd dz_git
+git init
+git remote add origin git@github.com:aboltykhov/dz_git.git
+git pull origin main && ll
+
+#######################################
+# Пример:
+# Чтобы отправить dz_git
+#######################################
+pwd
+ls -l
+git add .
+git commit -m "Добавлен файл инструкциий для репозитория dz_git"
+git branch -M main 
+git push -u origin main 
+
+#######################################
+# И т.д.
+#
+#######################################
