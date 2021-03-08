@@ -1,0 +1,17 @@
+#######################################
+#ВТОРАЯ ВЕРКА albo в репозитории dz_git
+#######################################
+cd /tmp/ && mkdir dz_git && cd dz_git
+git init
+git remote add origin git@github.com:aboltykhov/dz_git.git
+git pull origin albo && ll
+#######################################
+# Пример:
+# Чтобы отправить dz_git
+#######################################
+git checkout albo
+git add .
+git commit -m "Добавлен файл инструкциий для ветки albo"
+git branch -M albo 
+git push -u origin albo && ll
+#######################################
